@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact</title>
+    <style>
+        form
+        {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            max-width: 500px;
+            margin: 0px auto;
+            padding: 0px;
+            
+        }
+        header {
+            text-align:left;
+            padding: 10px;
+        }
+        .id {
+            max-width: 500px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color:#60cbd3;
+            border: 5px;
+        }
+        .submit {
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        #inf{
+            text-align: center;
+            background-color: aquamarine;
+            border-radius: 20px;
+            background-size: 50%;
+        }
+        
+        h1{
+            border-radius: 10px;
+            background-color:aquamarine;
+            color: rgb(99, 30, 13);
+            animation-name: ani;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes ani{
+            from{color: brown}
+            to{color:lightcoral;}
+        }
+       div
+       {
+        padding: 20px 10px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow:10px 10px 7px 7px black ;
+            background:linear-gradient(rgb(137, 154, 230));
+            border: 1px solid black;
+            width: 500px;
+            height: auto;
+       }
+       a:link{
+        border:3px solid #e06b5b;
+        text-decoration: none;
+        border-radius: 6px;
+        background-color: bisque;
+       }
+       a:hover{
+        background-color:#82CD47 ;
+       }
+    h2{
+        border-radius: 2px;
+        font-size: 60px;
+        font-style:italic;
+        background-color: peachpuff;
+        width: fit-content;
+        margin-left: 40%;
+        border-radius: 10px;
+    }
+    </style>
+</head>
+<body background="wp7213373.webp" align="center">
+    <h2>CONTACT</h2>
+    <p><font size="5"> I Continuously seek self-improvement and take initiatives to develop the skills needed 
+        to achieve your company goals and Pursue opportunities that align with your passions and contribute 
+        to your vision.</font></p>
+    <br><br>
+    <font size="5"><b>Email:&nbsp;&nbsp; vcharanreddyctr@gmail.com</b></font>
+    <br><br>
+    <font size="5"><i>If you like my profile please fill in the details:</i></font>
+    <br><br>
+    <form action="#" onsubmit="return displayThankYou();">
+            
+                <div id="inf">
+                    <center>
+                        <h1>Contact_Details</h1></center>
+                    <form action="">
+                    <label for="fname">First Name</label>
+                    <input type="text" required="" placeholder="Ex:Charan" name="fname" id="fname" pattern="[a-zA-z]{3,10}"><br><br>
+                    <label for="lname">Last Name</label>
+                    <input type="text" required="" placeholder="Ex:Reddy" name="lname" id="lname"><br><br>
+                    <label for="email">Email</label>
+                    <input type="email" required="" placeholder="Ex:vcharanreddy@gmail.com" name="email" id="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"><br><br>
+                    <label for="pno">Phone Number</label>
+                    <input type="tel" required="" placeholder="Ex:9880763879" name="pno" id="pno" pattern="[6-9]{1}[0-9]{9}"><br><br>
+                    <label for="">Gender</label>
+                    <input type="radio" name="Male" id="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" name="Female" id="Female">
+                    <label for="Female">Female</label><br><br>
+                    <center><b>
+                    <a href="thanku.html" target="_blank">Submit</a></b></center>
+                    </div>
+    </form>
+</body>
+</html>
+
